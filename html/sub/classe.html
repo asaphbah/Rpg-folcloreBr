@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link href="../../css/classe.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+        <nav class="navbar navbar-expand-lg bg-light nav-cor">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"><h1>Abraité</h1></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Classes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Mapa</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Personagens</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Monstros</a>
+                  </li>    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Itens/Armas</a>
+                  </li>    
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+         
+            <div class="marg">
+                
+                  <div class="seleciona-class">
+                      <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy">
+                        <div class="btn-group select">
+                          <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                            <a  href="#simple-list-item-1" class="btn btn-primary"><button type="button" class="btn btn-dark">Caçador</button></a>
+                            <a  href="#simple-list-item-2" class="btn btn-primary"><button type="button" class="btn btn-dark">Mercenario</button></a>
+                            <a  href="#simple-list-item-3" class="btn btn-primary"><button type="button" class="btn btn-dark">Indio</button></a>
+                            <a href="#simple-list-item-4" class="btn btn-primary"><button type="button" class="btn btn-dark">General</button></a>
+                            <a href="#simple-list-item-5" class="btn btn-primary"><button type="button" class="btn btn-dark">Lutador</button></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                  </div>
+                    <div class="cacador">
+                        <h4 id="simple-list-item-1">Caçador</h4>
+                        <img class="img-class" src="../../imagens/classe/cacador.png">
+                                           <p>
+                        Vida 8<br>
+                        Dado de vida 1d8+const<br>
+                        Habilidades: arcos, machados, bestas, espingardas.<br>
+                        1-	Inimigo predileto, terreno predileto<br>
+                        2-	Rastrear, especialização.<br>
+                        3-	Estilo de combate<br>
+                        4-	Especialização evoluída<br>
+                        5-	 ataque extra<br>
+                        6-	Inimigo predileto maior<br>
+                        7-	Desaparecer <br>
+                        8-	Conhecedor do vale<br>
+                        9-	Reflexos do caçador<br>
+                        10-	Dia de caça<br>
+                        
+                                           </p>
+                    </div>
+                    <div class="merce">
+                        <h4 id="simple-list-item-2">Mercenario</h4>
+                         <img class="img-class" src="../../imagens/classe/mercenario.png">
+                         <p>
+                            Vida 8<br/>
+                            Dado de vida 1d8+const<br/>
+                            Habilidades: revólveres, espadas, adagas, venenos, armaduras de couro.<br>
+                            1-	Ataque limpo, furtividade<br/>
+                            2-	Ação ardilosa<br/>
+                            3-	Estilo de combate<br/>
+                            4-	Mãos rápidas<br/>
+                            5-	Assassinar, ataque furtivo 2d6<br/>
+                            6-	Evasão <br/>
+                            7-	Sentido cego<br/>
+                            8-	Ataque furtivo brutal 4d6<br/>
+                            9-	Esquiva<br/>
+                            10-	Assassino brutal, ataque furtivo brutal6d6<br/>
+                         </p>
+                    </div>
+                    <div class="indio">
+                        <h4 id="simple-list-item-3">Indio</h4>
+                        <img class="img-class" src="../../imagens/classe/indio.jpg">
+                        <P>
+                            Vida 10<br/>
+                            Dado de vida 1d10<br/>
+                            Habilidades: machado, espada, lanças, arcos, zarabatana, sobrevivência, natureza<br>
+                            1-Conecimento do vale superficial<br/>
+                            2-conhecimento da mata, Tupinambás<br/>
+                            3-ataque surpresa 1d6, extinto Tupi<br/>
+                            4-pés rápidos<br/>
+                            5-ataque extra<br/>
+                            6-ataque surpresa2d6,<br/>
+                            7-empatia selvagem<br/>
+                            8-evasão<br/>
+                            9-ataque surpresa3d6,<br/>
+                            10-ataque extra<br/>
+                        </P>
+                    </div>
+                    <div class="gener">
+                        <h4 id="simple-list-item-4">General</h4>
+                        <img class="img-class" src="../../imagens/classe/general.jpg">
+                        <p>
+                            Vida15<br/>
+                            Dado de vida d8<br/>
+                            Habilidades: carisma, intimidação, espada, revólveres e espingardas.<br/>
+                            1-aura do heroísmo,<br/>
+                            2-fluxo da batalha<br/>
+                            3-comando de ataque<br/>
+                            4-comando de defesa<br/>
+                            5-evasão<br/>
+                            6-aura do heroísmo aprimorada<br/>
+                            7-grito da general<br/>
+                            8-Espeicilizaçao<br/>
+                            9-xXXXx<br/>
+                            10-aura do heroísmo máxima<br/>
+                        </p>
+                    </div>
+                    <div class="lutad">
+                        <h4 id="simple-list-item-5">Lutador</h4>
+                        <img class="img-class" src="../../imagens/classe/lutador.png">
+                        <p>
+                            Vida 12<br/>
+                            Dado de vida 1d12<br/>
+                            Habilidades: sabedoria, destreza, força, constituição.<br>
+                            1-Briga1d4, Durão<br/>
+                            2-desvio sagaz<br/>
+                            3-sentido do campeão<br/>
+                            4-briga 1d6<br/>
+                            5-ataque extra<br/>
+                            6-desvio aprimorado<br/>
+                            7-briga 1d8<br/>
+                            8-reflexos do campeão <br/>
+                            9-evasão<br/>
+                            10-briga 1d10<br/>
+                        </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="final">
+              <img  class="fade-in fim" src="../../imagens/index/dados.png">
+              <div class="flex">
+             <div class="flex">
+              <a href=""><img class="img-comerc" src="../../imagens/comerc/insta.jpg"></a>
+              <a href=""><img class="img-comerc" src="../../imagens/comerc/yut.jpg"></a>
+              <a href=""><img class="img-comerc" src="../../imagens/comerc/zap.jpg"></a>
+              <a href=""><img class="img-comerc" src="../../imagens/comerc/disc.jpg"></a>
+             </div>
+            </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  </body>
+</html>
